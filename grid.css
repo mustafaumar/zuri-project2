@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(10, 10, 99);
+    text-align: center;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+p{
+    display: contents;
+}
+div{
+    height: 100px;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-gap: .5em;
+    grid-template-areas: 
+    "box1 box1 box1 box2"
+    "box1 box1 box1 box2"
+    "box3 box3 box4 box4"
+    "box3 box3 box5 box5"
+    ;
+}
+.box1{
+    background-color: brown;
+    grid-area: box1;
+}
+.box2{
+    background-color: goldenrod;
+    grid-area: box2;
+}
+.box3{
+    background-color: aqua;
+    grid-area: box3;
+    height: 210px;
+}
+.box4{
+    background-color: gray;
+    grid-area: box4;
+}
+.box5{
+    background-color: green;
+    grid-area: box5;
+}

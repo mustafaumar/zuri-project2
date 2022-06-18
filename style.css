@@ -1,0 +1,66 @@
+
+body{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 1em;
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+img{
+    padding-bottom: 2em;
+}
+.child{
+    font-family:'Big Shoulders Display', cursive;
+    font-size: 32px;
+    padding-bottom: 1em;
+}
+.child1{
+    padding-bottom: 3em;
+}
+a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: .5em 1em;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    transition: .5s;
+}
+a:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.link{
+    padding: 1.5em 0;
+}
+.link1{
+    color: hsl(31, 77%, 52%);
+}
+.link2{
+    color: hsl(184, 100%, 22%);
+}
+.link3{
+    color: hsl(179, 100%, 13%);
+}
